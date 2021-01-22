@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+array.each do |squareIt|
+  return [squareIt**2, squareIt**2, squareIt**2]  
+end
 end
